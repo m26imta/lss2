@@ -1,6 +1,8 @@
+local enabled = false
+
 local M = {
   "akinsho/toggleterm.nvim",
-  enabled = false,
+  enabled = enabled,
   version = "*",
   event = "VeryLazy",
 }
